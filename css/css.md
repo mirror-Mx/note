@@ -85,8 +85,9 @@ overflow: hidden;       /*一定不能少 超出的内容进行隐藏*/
 2. 多行文本
 
 ```css
-line-clamp: 2; /*多行文本 溢出部分...*/
-box-orient: vertical; /*从上向下垂直排列*/
 overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2; 
 ```
 

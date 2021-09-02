@@ -91,3 +91,5 @@ display: -webkit-box;
 -webkit-line-clamp: 2; 
 ```
 
+## 伪类选择器
+
